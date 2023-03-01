@@ -179,7 +179,7 @@ public class Login{
         //ENTER PORT, USER, PASSWORD.
         String url = "jdbc:mysql://localhost:3306/attendance";
         String user = "root";
-        String pass = "password";
+        String pass = "root";
         String str = "SELECT * FROM user WHERE username = '" + name + "'";
         Connection con = DriverManager.getConnection(url, user, pass);
         Statement stm = con.createStatement();
